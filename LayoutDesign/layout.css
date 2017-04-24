@@ -1,0 +1,171 @@
+    html,body{
+    background: url(https://static.pexels.com/photos/92083/pexels-photo-92083.jpeg);
+    background-size: 100%;
+    
+}
+.header{
+    font-size: 25px;
+}
+img {
+    vertical-align: middle;
+}
+.menu .container {
+    overflow: hidden;
+    background-color: black;
+    font-family:cursive;
+ }
+
+.menu .container a {
+    float: left;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu .container  a:hover{
+    background-color: lightskyblue;
+}
+.menu .zone a:hover{
+    background-color: lightskyblue;
+}
+.menu .zone{
+    overflow: hidden;
+    background-color: red;
+    font-family:cursive;
+}
+.menu .zone a{
+    float: left;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.content-wrapper{
+    height: 100%;
+    margin-top: 70px;
+}    
+.content-wrapper .breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 17px;
+}
+.content-wrapper .breadcrumb li {display: inline;}
+.content-wrapper .breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "|";
+}
+.content-wrapper  .breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+.content-wrapper  .breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.content-wrapper .contact{
+    float: left;
+    height: 100%;
+    width:15%;
+    margin-left: 1.4px;
+}
+
+.content-wrapper .contact a{
+    display: block;
+    float: right;
+    padding-right: 18px;
+}
+.content-wrapper .breadcrumb{
+    float: left;
+    height: 20%;
+    width: 82%;
+  
+}
+.menu{
+    height: 100%;
+}
+.menu .zone{
+    background-color: #777575;
+    height: 50%;
+    width:22%;
+    float: left;
+}
+.menu .container{
+    height: 50%;
+    width: 78%;
+    float: left;
+}
+.content{
+    height: 100%;
+    margin-left: 14%;
+    margin-top: 150px;
+    
+}
+.content .content1{
+    float:left;
+    font-family:cursive;
+    height:100%;
+    width: 70%;
+}
+.content .content2{
+    float: left;
+    font-family: cursive;
+    height: 100%;
+    width: 18%;
+    margin-left: 100    px;
+}
+
+.footer{
+  height: 100%;
+margin-top: 500px;
+} 
+.footer .pay{
+    
+    float:left;
+    font-family:cursive;
+    height:100%;
+    width: 25%;
+}
+.footer .shop a{
+    
+    height: 100%;
+    width: 25%;
+    font-family:cursive;
+    color: darkslateblue;
+}
+.footer .shop{
+    float: left;
+    text-decoration: none;
+    font-family:cursive;
+    
+}
+.footer .sitemap a{
+    text-decoration: none;
+    font-family:cursive;
+    color: darkslateblue;
+    
+}
+.footer .sitemap{
+    
+    float: left;
+    height: 100%;
+    width: 25%;
+    font-family:cursive;
+    
+}
+.footer .groups a{
+    text-decoration: none;
+    font-family:cursive;
+    color: darkslateblue;
+}
+.footer .groups{
+    float: left;
+    height: 100%;
+    width: 25%;
+    font-family:cursive;
+}
